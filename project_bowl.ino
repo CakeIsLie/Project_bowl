@@ -6,13 +6,13 @@
 #include <MySQL_Cursor.h>
 
 //SQL stuff
-char ssid[] = "COMHEM_f38715"; //Wi-Fi name
-char pass[] = "idzknut"; //Wi-Fi password
+char ssid[] = ""; //Wi-Fi name
+char pass[] = ""; //Wi-Fi password
 int status = WL_IDLE_STATUS;
 WiFiEspServer server(80);
 WiFiEspClient client;
 MySQL_Connection conn((Client *)&client);
-IPAddress server_addr(192,168,0,12); //my IP adress
+IPAddress server_addr(); //my IP adress
 char user[] = "kurs1234"; // MySQL user
 char password[] = "kurs1234"; // MySQL password
 
