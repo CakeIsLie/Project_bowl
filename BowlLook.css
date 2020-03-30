@@ -1,0 +1,33 @@
+p{font-size: 18px; font: Times; color: #000;}
+h1{font-size: 40px; font: Times; color: #000;}
+h2{font-size: 25px; font: Times; color: black; text-emphasis: bold; text-decoration: underline;}
+.header{
+background-color: aquamarine;
+color: black;
+padding: 10px; 
+}
+ul{
+    background-color: rgb(61, 192, 9);
+    float: left;
+    font: Times;
+    padding: 0;
+    width: 250px;
+    margin: 10px;
+    list-style-type: none;
+    border: 10px solid white;
+    color: black;
+}
+li a{
+    display: block;
+    padding: 10px;
+    border-bottom: 10px solid white;
+}
+li a:hover{
+    background-color: rgb(17, 139, 6);
+    color: white;
+    text-decoration: underline;  
+}
+li a:active{
+    background-color: rgb(88, 156, 211);
+    text-decoration: underline;
+}
